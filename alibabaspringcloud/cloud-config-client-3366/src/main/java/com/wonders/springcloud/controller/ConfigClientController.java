@@ -12,6 +12,8 @@ public class ConfigClientController {
     @Value("${config.info}")
     private String configInfo;
 
+
+
     @GetMapping("/configInfo")
     public String getConfigInfo(){
         return configInfo;
